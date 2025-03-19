@@ -1,5 +1,7 @@
 # cài đặt web thành exe dùng nwjs
 
+https://nwjs.io/downloads/
+
 ## 1. Chuẩn bị sẵn file
 
 - chuẩn bị sẵn toàn bộ src của web và nén lại, sau đó đổi đuôi .zip thành .nw
