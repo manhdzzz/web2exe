@@ -4,7 +4,21 @@ https://nwjs.io/downloads/
 
 ## 1. Chuẩn bị sẵn file
 
-- chuẩn bị sẵn toàn bộ src của web và nén lại, sau đó đổi đuôi .zip thành .nw
+- chuẩn bị sẵn toàn bộ src của web
+- tạo file package.json với nội dung sau:
+```json
+{
+  "name": "myapp", // Tên ứng dụng
+  "version": "1.0.0",
+  "main": "index.html", // Đường dẫn html chính
+  "window": {
+    "title": "My App", // tiêu đề cửa sổ
+    "width": 800,
+    "height": 600
+  }
+}
+```
+- nén zip toàn bộ file mã nguồn của web kèm với package.json, sau đó đổi đuôi file .zip thành .nw
 
 ### 2. Gộp file
 
