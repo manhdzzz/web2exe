@@ -8,10 +8,7 @@
 
 - copy file nén .nw vào thư mục nwjs
 - mở cmd trong thư mục nwjs, dùng lệnh sau để gộp file và build thành exe 
-<details>
-  
+
 ```shell script
 copy /b nw.exe+my-file.nw webapp.exe
 ```
-
-</details>
