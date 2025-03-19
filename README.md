@@ -8,11 +8,11 @@ https://nwjs.io/downloads/
 - tạo file package.json với nội dung sau:
 ```json
 {
-  "name": "myapp", // Tên ứng dụng
+  "name": "myapp",
   "version": "1.0.0",
-  "main": "index.html", // Đường dẫn html chính
+  "main": "index.html",
   "window": {
-    "title": "My App", // tiêu đề cửa sổ
+    "title": "My App",
     "width": 800,
     "height": 600
   }
